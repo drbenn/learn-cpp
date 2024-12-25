@@ -1,0 +1,20 @@
+// {
+//     "version": "2.0.0",
+//     "tasks": [
+//         {
+//             "label": "Build and Run",
+//             "type": "shell",
+//             "command": "g++",
+//             "args": [
+//                 "-o", "main",          // The output executable file
+//                 "main.cpp",            // The main source file
+//                 "getInteger.cpp"       // The additional source file
+//             ],
+//             "group": {
+//                 "kind": "build",
+//                 "isDefault": true
+//             },
+//             "detail": "Builds the program using main.cpp and getInteger.cpp in the current folder"
+//         }
+//     ]
+// }
